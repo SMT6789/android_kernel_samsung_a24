@@ -38,7 +38,7 @@ cd "${WDIR}/kernel-5.10"
 
 # Cook the build config
 python2 scripts/gen_build_config.py \
-    --kernel-defconfig a24_defconfig \
+    --kernel-defconfig a24_00_defconfig \
     --kernel-defconfig-overlays entry_level.config \
     -m user \
     -o ../out/target/product/a24/obj/KERNEL_OBJ/build.config
